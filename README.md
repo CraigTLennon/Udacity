@@ -1,3 +1,3 @@
 # Udacity
 Homework from Udacity courses
-Software debugging
+Software Debugging
