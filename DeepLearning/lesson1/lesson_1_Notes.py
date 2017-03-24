@@ -36,3 +36,8 @@ def softmax(x):
 # print(y-x)
 
 #Guideline, have zero mean and equal variance when DivisionImpossible
+#normalize images by subtracting 128 and dividing by 128 (scaling))
+#initialize weigths W and bias b draw guassian mean 0 and sigma of ??? maybe large 
+
+# for optimization, loss function is average over training data of cross entropy loss  of softmax s(Wx+b) and one hot encoding)
+# w<-W-\alpha* derivative of Loss with respect to weights and same for bias
